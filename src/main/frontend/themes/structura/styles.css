@@ -1,0 +1,63 @@
+html {
+  --lumo-primary-color: #0b2545;
+  --lumo-primary-color-50pct: rgba(11, 37, 69, 0.5);
+  --lumo-primary-color-10pct: rgba(11, 37, 69, 0.1);
+  --lumo-primary-text-color: #0b2545;
+  --structura-accent: #d4af37;
+}
+
+.structura-header {
+  background-color: var(--lumo-primary-color);
+  color: var(--lumo-base-color);
+  border-bottom: 2px solid var(--structura-accent);
+}
+
+.structura-header h2,
+.structura-header span {
+  color: var(--lumo-base-color) !important;
+}
+
+.disclaimer-footer {
+  background-color: var(--lumo-shade-5pct);
+  border-top: 1px solid var(--lumo-contrast-10pct);
+  padding: var(--lumo-space-s) var(--lumo-space-m);
+  font-size: var(--lumo-font-size-xs);
+  color: var(--lumo-secondary-text-color);
+}
+
+.product-card {
+  border: 1px solid var(--lumo-contrast-10pct);
+  border-radius: var(--lumo-border-radius-m);
+  padding: var(--lumo-space-m);
+  background-color: var(--lumo-base-color);
+  transition: box-shadow 150ms ease;
+}
+
+.product-card:hover {
+  box-shadow: var(--lumo-box-shadow-m);
+}
+
+.product-card .product-name {
+  color: var(--lumo-primary-text-color);
+  font-weight: 600;
+  font-size: var(--lumo-font-size-l);
+}
+
+.metric-tile {
+  background-color: var(--lumo-shade-5pct);
+  border-radius: var(--lumo-border-radius-m);
+  padding: var(--lumo-space-m);
+}
+
+.metric-tile .label {
+  font-size: var(--lumo-font-size-xs);
+  color: var(--lumo-secondary-text-color);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.metric-tile .value {
+  font-size: var(--lumo-font-size-xl);
+  font-weight: 600;
+  color: var(--lumo-primary-text-color);
+}

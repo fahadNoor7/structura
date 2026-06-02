@@ -3,7 +3,9 @@
     "allow": [
       "Bash(npx ctx7@latest library \"Vaadin\" \"Spring Boot 4.x compatible version\")",
       "Bash(npx ctx7@latest docs /vaadin/flow \"Spring Boot 4 integration setup gradle dependency\")",
-      "Bash(npx ctx7@latest docs /vaadin/flow \"spring boot starter gradle dependency vaadin-spring-boot-starter\")"
+      "Bash(npx ctx7@latest docs /vaadin/flow \"spring boot starter gradle dependency vaadin-spring-boot-starter\")",
+      "Bash(gh api *)",
+      "Bash(python3 -c ' *)"
     ]
   }
 }
