@@ -35,3 +35,9 @@ out/
 
 ### VS Code ###
 .vscode/
+node_modules
+
+### Vaadin (regenerated on every build — do not commit) ###
+/src/main/frontend/generated/
+/src/main/bundles/
+/vite.generated.ts

@@ -46,3 +46,10 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+// Local development only: `./gradlew bootRun` activates the 'dev' profile
+// (DEBUG logging + Vaadin hot deploy). Production runs via `java -jar` set no
+// profile and stay at the policy default of INFO.
+tasks.named('bootRun') {
+	systemProperty 'spring.profiles.active', 'dev'
+}
